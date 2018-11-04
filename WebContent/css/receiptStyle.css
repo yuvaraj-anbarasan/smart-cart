@@ -1,0 +1,161 @@
+body{
+	font:15px/1.5 Arial,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+}
+
+/*global*/
+.container{
+	width:80%;/*to be responsive*/
+	margin:auto;/*moving to middle*/
+	overflow:hidden;
+}
+ul{
+	padding:0;
+	margin:0;
+}
+.button_1{
+	height:38px;
+	background:#e8491d;
+	border:none;
+	padding:0 20px 0 20px;
+	color: white;
+}
+/*header*/
+header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70%;/*to be responsive*/
+	border-bottom: #e8491d 3px solid;
+}
+
+header a{
+	color:white;
+	text-decoration:none;
+	font-size: 16px;
+}
+header .active{
+	color: #e8491d;
+}
+header a:hover{
+	font-weight: bold;
+	color:#cccccc;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float:right;
+	padding-top:10px;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background:#35424a;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 8em;
+    background-color: #ffffff;
+    min-width: 200px;
+    min-height: 500px
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #aaaeaf;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.6px solid #f1f1f1;
+}
+.dropdown-content a:last-child {
+    border: none;
+}
+
+.dropdown-content span{
+	font-size: 14px;
+	padding-left: 10px;
+	position: relative;
+	bottom: 0.3em;
+}
+.dropdown-content #last-span{
+	padding-left: 0;
+	}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	color:#868889;
+	font-weight: bold;
+}
+
+/**************receipt design********************/
+
+.receipts{
+	margin-top: 30px;
+	border: 1px solid rgb(240,231,240);
+	max-width: 100%;
+	max-height: 100%;
+	padding: 20px 10px 20px 10px;
+	box-shadow: 0px 2px 6px 0px rgba(240,231,240,1);
+}
+.receipts div{
+	margin-bottom: 20px;
+}
+.receipts div p{
+	margin:0;
+	padding: 0;
+	float:left;
+	font-size: 18px;
+	font-weight: bold;
+	color: #aeb0b2;
+}
+
+.receipts div label{
+	float:right;
+	padding-left: 20px;
+	color: #aeb0b2;
+}
+/************************************************/
+footer{
+	padding:20px;
+	margin-top: 20px;
+	color: white;
+	background-color: #aaaeaf;
+	text-align: center;
+	position: relative;
+	bottom: -370px;
+}
